@@ -1,6 +1,21 @@
-mode: Mainline
-next-version: 0.0.1
-branches: {}
+mode: ContinuousDelivery
+next-version: 0.1.1
+branches:
+  main:
+    tag: ''
+    increment: Patch
+    source-branches: [ 'develop' ]
+    is-release-branch: true
+    pre-release-weight: 55000
+  develop:
+    tag: 'alpha'
+    increment: Minor
+    source-branches: []
+    pre-release-weight: 0
+  feature:
+    tag: 'build'
+    increment: Inherit
+    pre-release-weight: 30000
 ignore:
   sha: []
 merge-message-formats: {}
