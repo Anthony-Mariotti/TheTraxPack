@@ -3,7 +3,9 @@ name: Trax Pack Development
 on:
   push:
     branches:
-      - develop
+      - '!develop'
+      - '!main'
+      - 'feature/**'
 
 jobs:
   generate:
@@ -48,12 +50,9 @@ jobs:
           cd client
           packwiz mr export -o TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
-      - name: Publish Pre-Release
-        uses: softprops/action-gh-release@v1
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
         with:
-          prerelease: true
-          name: ${{ env.GitVersion_SemVer }}
-          tag_name: ${{ env.GitVersion_SemVer }}
-          files: |
+          path: |
             client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
             TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
