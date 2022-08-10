@@ -25,10 +25,6 @@ jobs:
         id: version
         uses: gittools/actions/gitversion/execute@v0.9.13
 
-      - name: Show GitVersion config
-        run: |
-          echo ${{ env.GitVersion_SemVer }}
-
       - name: Setup GO Language
         uses: actions/setup-go@v3
         with:

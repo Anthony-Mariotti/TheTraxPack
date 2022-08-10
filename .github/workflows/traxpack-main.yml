@@ -25,12 +25,6 @@ jobs:
         id: version
         uses: gittools/actions/gitversion/execute@v0.9.13
 
-      - name: Show GitVersion config
-        uses: gittools/actions/gitversion/execute@v0.9.8
-        with:
-          useConfigFile: true
-          additionalArguments: '/showConfig'
-
       - name: Setup GO Language
         uses: actions/setup-go@v3
         with:
@@ -41,21 +35,21 @@ jobs:
 
       - name: Generate MultiMC Instance
         run: |
-          zip TheTraxPack-MultiMC-0.0.1-alpha.zip multimc
+          zip TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip multimc
 
       - name: Generate Modrinth Pack
         run: |
           cd client
-          packwiz mr export -o TheTraxPack-0.0.1-alpha.mrpack
+          packwiz mr export -o TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
       - name: Upload Modrinth Pack
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: TheTraxPack-Modrinth-0.0.1-alpha
-          path: client/TheTraxPack-0.0.1-alpha.mrpack
+          name: TheTraxPack-Modrinth-${{ env.GitVersion_SemVer }}
+          path: client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
       - name: Upload MultiMC Instance
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: TheTraxPack-MultiMC-0.0.1-alpha
+          name: TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}
           path: multimc/
