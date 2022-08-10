@@ -15,12 +15,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup GO Language
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
           go-version: '^1.19' 
       
       - name: Install PackWiz
-        run: go install install github.com/packwiz/packwiz@latest
+        run: go install github.com/packwiz/packwiz@latest
 
       - name: Generate MultiMC Instance
         run: |
