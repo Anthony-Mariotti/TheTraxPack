@@ -1,6 +1,16 @@
 mode: Mainline
-next-version: 0.0.1
-branches: {}
+next-version: 0.1.1
+branches:
+  main:
+    tag: ''
+    increment: Patch
+    source-branches: [ 'develop' ]
+    pre-release-weight: 55000
+  develop:
+    tag: 'alpha'
+    increment: Patch
+    source-branches: []
+    pre-release-weight: 0
 ignore:
   sha: []
 merge-message-formats: {}
