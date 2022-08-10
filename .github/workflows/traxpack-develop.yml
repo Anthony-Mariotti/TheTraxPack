@@ -1,0 +1,59 @@
+name: Trax Pack Workflow
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  generate:
+    name: Generate Trax Pack
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install GitVersion
+        uses: gittools/actions/gitversion/setup@v0.9.13
+        with:
+          versionSpec: '5.x'
+
+      - name: Determine Version
+        id: version
+        uses: gittools/actions/gitversion/execute@v0.9.13
+
+      - name: Show GitVersion config
+        run: |
+          echo ${{ env }}
+
+      - name: Setup GO Language
+        uses: actions/setup-go@v3
+        with:
+          go-version: '^1.19' 
+      
+      - name: Install PackWiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Generate MultiMC Instance
+        run: |
+          zip TheTraxPack-MultiMC-0.0.1-alpha.zip multimc
+
+      - name: Generate Modrinth Pack
+        run: |
+          cd client
+          packwiz mr export -o TheTraxPack-0.0.1-alpha.mrpack
+
+      - name: Upload Modrinth Pack
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: TheTraxPack-Modrinth-0.0.1-alpha
+          path: client/TheTraxPack-0.0.1-alpha.mrpack
+
+      - name: Upload MultiMC Instance
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: TheTraxPack-MultiMC-0.0.1-alpha
+          path: multimc/
