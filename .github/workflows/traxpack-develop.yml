@@ -45,6 +45,7 @@ jobs:
       - name: Publish Pre-Release
         uses: softprops/action-gh-release@v1
         with:
+          prerelease: true
           name: ${{ env.GitVersion_SemVer }}
           tag_name: ${{ env.GitVersion_SemVer }}
           files: |
