@@ -54,6 +54,7 @@ jobs:
           prerelease: true
           name: ${{ env.GitVersion_SemVer }}
           tag_name: ${{ env.GitVersion_SemVer }}
+          target_commitish: develop
           files: |
             client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
             TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
