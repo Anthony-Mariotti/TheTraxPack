@@ -43,13 +43,13 @@ jobs:
           packwiz mr export -o TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
       - name: Upload Modrinth Pack
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v3
         with:
           name: TheTraxPack-Modrinth-${{ env.GitVersion_SemVer }}
           path: client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
       - name: Upload MultiMC Instance
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v3
         with:
           name: TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}
           path: multimc/

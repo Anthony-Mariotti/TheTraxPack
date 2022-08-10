@@ -42,14 +42,11 @@ jobs:
           cd client
           packwiz mr export -o TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
-      - name: Upload Modrinth Pack
-        uses: actions/upload-artifact@v3.0.0
+      - name: Publish Pre-Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: TheTraxPack-Modrinth-${{ env.GitVersion_SemVer }}
-          path: client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
-
-      - name: Upload MultiMC Instance
-        uses: actions/upload-artifact@v3.0.0
-        with:
-          name: TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}
-          path: multimc/
+          name: ${{ env.GitVersion_SemVer }}
+          tag_name: ${{ env.GitVersion_SemVer }}
+          files: |
+            client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+            TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
