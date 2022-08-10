@@ -1,6 +1,138 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Adorn.json5"
+hash = "307414275390a02051b42622dbfcd04f40eda0cdd885b64f5a9180bb852bca5a"
+
+[[files]]
+file = "config/PlasmoVoice/config.json"
+hash = "e044ad9885470b34326bda44029e2670d30157d42f785d016306eb2be6d06075"
+
+[[files]]
+file = "config/PlasmoVoice/server.yml"
+hash = "e6ce65e98af572331c88791889512396135390f31db973a0ec2ed7b552247367"
+
+[[files]]
+file = "config/PlasmoVoice/server_data.json"
+hash = "ec1e4eb5cb0f9781edaefa27df5c620a72c4e5f5b56169d31196640e6683e966"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
+
+[[files]]
+file = "config/authme.json5"
+hash = "abc3e0e4c6c3120dcbc22fecfae1966d0a040aa9464913fd2ff3aa5b1f606023"
+
+[[files]]
+file = "config/charm.toml"
+hash = "3b42aa4dbc12fb7a599e062c5ba77e51e78e361cb250bbeaf756139775a5a64b"
+
+[[files]]
+file = "config/croptopia/croptopia.conf"
+hash = "a4c70795b0442bb035416e3b15cf2037f260d4fc2248ca64ddd2de91e8817b99"
+
+[[files]]
+file = "config/dashloader.json"
+hash = "c4c79b030c36cb3a2ce8f44b28f473424b8a2d2c057f7c07fb20f69a8c7c427b"
+
+[[files]]
+file = "config/detailarmorbar.json"
+hash = "e3f94c490714f3b745e80f21e79bb976c93273cd57f646e6490335734b4529f8"
+
+[[files]]
+file = "config/emi.css"
+hash = "938d094f9027ceb08c2251d78e2b565916050b11afe8c40c9464fec30602a5cf"
+
+[[files]]
+file = "config/enhanced_bes.properties"
+hash = "40b71fb21dc955044f29d8768b1125d1876f34016387de8c0247b11890886b8a"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "ecd1c291d7c62375a5874b6d5cfd8acfa98d3fac0d36df7bbd7b0d73803c9eaf"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
+
+[[files]]
+file = "config/indium-renderer.properties"
+hash = "91b0c80f21c917f572140fe57e4fbf11f6b81129ae172a0dc05a38f9633e4fc3"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "f8e48756bfd1b9515a099c6bf9556f0d6ce86fe81ef8c6a8d3a33ff16027e547"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "0455c73f4e4f8b0351d7f1b88ad6452a35d331739545d28a38ff6e464e86ccd4"
+
+[[files]]
+file = "config/libgui.json5"
+hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
+
+[[files]]
+file = "config/lithium.properties"
+hash = "4f5890cb55b35047fdb433efa30060827aa9415e0850220f85b2c8ad663d6722"
+
+[[files]]
+file = "config/minimalmenu.json"
+hash = "668a7d13948e951e61a0a74c4c38963f333a094abd7182ec9f4729591bdb1b18"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
+
+[[files]]
+file = "config/notenoughcrashes.json"
+hash = "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf"
+
+[[files]]
+file = "config/patchouli.json5"
+hash = "92dc9dadb34707462bf5574bb597430b3b34c65eccf964a31680d402f0431ccf"
+
+[[files]]
+file = "config/rrp.properties"
+hash = "5d085add38d1f0dbac234722f51a0c72f33912f9cd390885ed0f8871cc738704"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+
+[[files]]
+file = "config/stendhal/stendhal.properties"
+hash = "1af09ec5636236f55cf8c4c6f841ee7ea1b1ce8835883b2454eb58d317b42352"
+
+[[files]]
+file = "config/tr7zwDonorSettings.json"
+hash = "b4f660488920eac2dffd3c2208d281e92e1444e6f9c7808461a2687347c787d5"
+
+[[files]]
+file = "config/waila/blacklist.json"
+hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
+
+[[files]]
+file = "config/waila/waila.json"
+hash = "3e70babf385e004e1af1b13c4ea854c1f8c9166e63d73a0eebbf70a1c4c33055"
+
+[[files]]
+file = "config/waila/waila_plugins.json"
+hash = "9294edffe0b3fc11fa6e823ffef45d2173245200346e4ecb62c06c8cc81e1217"
+
+[[files]]
 file = "mods/adorn.pw.toml"
 hash = "37a77653eb9db0572dbb4760a6817c64036d9ff68bc5ce0aa6bbb81010fe7a7a"
 metafile = true
