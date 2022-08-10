@@ -1,0 +1,12 @@
+{
+    "ModSettings": {
+        "highlight_foused_items_foreground": false,
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "AutoRefillSettings": {
+        "tool_max_durability_threshold": 300,
+        "type_visual_replace_success_notification": "CHAT",
+        "type_visual_replace_failed_notification": "CHAT"
+    }
+}

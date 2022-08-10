@@ -1,0 +1,30 @@
+{
+  "main_menu": {
+    "top_left": [
+      {
+        "text": "The Trax Pack"
+      },
+      {
+        "text": "Version 0.0.1-alpha"
+      }
+    ],
+    "top_right": [],
+    "bottom_left": [],
+    "bottom_right": [],
+    "mod_blacklist": []
+  },
+  "pause_menu": {
+    "top_left": [
+      {
+        "text": "The Trax Pack"
+      },
+      {
+        "text": "Version 0.0.1-alpha"
+      }
+  ],
+    "top_right": [],
+    "bottom_left": [],
+    "bottom_right": [],
+    "mod_blacklist": []
+  }
+}

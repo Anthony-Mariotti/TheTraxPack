@@ -1,0 +1,13 @@
+name = "The Trax Pack"
+author = "AMTraxTGE"
+version = "0.0.1-alpha"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3395da7c6e7341e12216b1717162ccac41a53a2a9921e0ea37fb0fa9f8794ac2"
+
+[versions]
+fabric = "0.14.9"
+minecraft = "1.19"

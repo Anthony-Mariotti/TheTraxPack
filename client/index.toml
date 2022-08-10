@@ -1,0 +1,216 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/adorn.pw.toml"
+hash = "37a77653eb9db0572dbb4760a6817c64036d9ff68bc5ce0aa6bbb81010fe7a7a"
+metafile = true
+
+[[files]]
+file = "mods/advanced-netherite.pw.toml"
+hash = "157430e50ccc1398231fb7addfc01210dbe98df4909a15c9be3d12dc18e8b441"
+metafile = true
+
+[[files]]
+file = "mods/amecs.pw.toml"
+hash = "208a021c2243bdcbddb09c5ed46eb150c390a89801b8c44703ecb83066cf20f3"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "b99f8b297b9429f5185c84805d1a67f650bba836cf83c6c9d81b275261169672"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "79d10b35c03c33c05e1d72276af5884e032e14040551d4abc79febfc8bdc995c"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.pw.toml"
+hash = "fada6c5111be510ce9dcda58588edd0d694e11bc040fcc2afe0586e8560abb49"
+metafile = true
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "d8fe226cd050b8c94fcb98819b2646a74863ad8d52fc22db37c29fe66e53996d"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "97b90825ea397eae1dc108b5a9257e3065feacb553e72c019fba62495a72c1d0"
+metafile = true
+
+[[files]]
+file = "mods/charm.pw.toml"
+hash = "fbc6a9da1f121b19b6cc30312fea639b2fe76532774751116febf31d1030ec96"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "5b6a49a1f18adac12e9da13035102cb763e7371a93c2358e25cf74e014366e59"
+metafile = true
+
+[[files]]
+file = "mods/dashloader.pw.toml"
+hash = "e9ae0492006c9a6bc309bee3658dcc6ebb96d213f74f6285bac4ae26ffc67631"
+metafile = true
+
+[[files]]
+file = "mods/detail-armor-bar.pw.toml"
+hash = "1427eb316137f045fc0ed36f5c7c22c7cad0d3133624e8cc6cce597887998297"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "855e5f89a1c2d225f10927dd9bdd06aaffbc0c59b6d2c525460db6f1c9742ad5"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "dd03b3d00d5c367dde03f049b2418131c1cd5b2146c998e0b24b3aa80ae4d9d4"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "5f7e8ec1787dc7e2c8556596c2ba53c0dae9828bf1a2d9c6a1f8b8f9ba41dfb7"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "0164a54948e8c8b4220f1b3f8a41a1c450050fe19e04256ed96e36f58db019d3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "8e91eac9da646c5458d00fb68ccf0887bf815947ef549cb19abebe1e6cec5c72"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1d87f8c04eeed21a9544cfad7f64afee6de58b5249a70b0367ba8522273a4816"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "eefcd81493fa26fa8135cf85495cbfb52127aa43667c5a4faea27d16d7bb2191"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "3f196a5ba67e18f52901014dd413376944faf11cbf2f35722a08ac6195dd363d"
+metafile = true
+
+[[files]]
+file = "mods/lanterns-bow.pw.toml"
+hash = "3dbddba4f0988ee87a0ea5966fb670bf5313836f1d3f9cd4619bc0019c340f06"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "443104f3ae619456aefa8eaabf9dbfba4c0a227435fc7c6e2f4c89370bb6786d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-bridges.pw.toml"
+hash = "b17ce1c86de7cf2b230e663513576bea860d33a46d264c8fc3a064a9d0a5edb2"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "16b4df55e16a4de8527401b8a88a71b321dfd84b9284283cc9f3b069081a40e7"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "f11f994433f5a11a80a9a44318887f6dd83b36e30ce08c65a3f3b39f86b85f31"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "ceecc79a1a61c443371d333ea6c7dd8c87e0e0b4bd96d3d8848beb6d377052fd"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "616b10a5004554570053c5334c9ff411c2225f42aa851496d7aa28fa8b8bf9bd"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "6a739caf974dd128ffc730b7a057e2b34b4fc7b1007a00e85d00a1b14739c650"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "d3b441fc147721fe2c498ccd17809ce2b5dc6d9714d33d66ef4e69d61e907e88"
+metafile = true
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
+metafile = true
+
+[[files]]
+file = "mods/minimalmenu.pw.toml"
+hash = "75cbefdd9f19a1002c51190f033e464d9a3a96766bd243d3af1f1c7994555347"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "a5c86b836f2213ad4db415d13f6ef5caa379ce348605a29224eb7703b81f1f95"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "01efbdcb32ff6e70b6777e26df46bbe3c6c5aecb3e0c81797d234dfad9e0568d"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "ea59340e930874c307b1dd1d17dd068dc5598e1f1a01055de1f5cb433780a1ee"
+metafile = true
+
+[[files]]
+file = "mods/phosphor.pw.toml"
+hash = "466d5892937df5aa05388291463b163b42fa454d8bfd22713484a0167ca3702d"
+metafile = true
+
+[[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "1b9992340de072c10a03628a1257be160c66808dfff0a557c63b3cd3e9a40a82"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0d539d8bad8493d4196bf5f7bf216d692384f283849fa41a2e5a816a0147673e"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "e63228fdadc03ceaac771202e588fbf174bc0d47d5f20de863a5b8a5d233058a"
+metafile = true
+
+[[files]]
+file = "mods/statuseffecttimer.pw.toml"
+hash = "1da5f38d24b00e49108dedf43fe3dd388bade82563e5f69689d051167ea57927"
+metafile = true
+
+[[files]]
+file = "mods/stendhal.pw.toml"
+hash = "8032db24b80201b84fca1fc2e64df6cd253978e7868bf5fd44218547c087a81b"
+metafile = true
+
+[[files]]
+file = "mods/tax-free-levels.pw.toml"
+hash = "a2545ca26dcfa338761c72d2cafc001c1b27f27829cbef1e63bf16649e9a4f2d"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "17b31e7231cdb332f741110e5cc7c49f98815d26f9227c7fde759c2b8392b343"
+metafile = true
