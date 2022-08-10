@@ -1,4 +1,4 @@
-name: Trax Pack Development
+name: Trax Pack Feature
 
 on:
   push:
