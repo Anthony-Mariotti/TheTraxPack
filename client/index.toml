@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "5afe02558027090123ec3c0b9f484fc01e6437a2c722cc722b2cc45b2f6998c9"
+hash = "921f73f17f138ece4672c2b822eecebe4508bf565e47f1e6d69936f4b3895aa0"
 metafile = true
 
 [[files]]
@@ -317,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-slot-fabric.pw.toml"
-hash = "c9343c36d7782959cd4a679e1501f2bc08216aec62d15f76f2ce9216fb0ab181"
+hash = "0e47b1328fabc6872c409910a090ec24051381f23e289efd6d0507d63013adbc"
 metafile = true
 
 [[files]]
@@ -357,7 +357,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-fabric.pw.toml"
-hash = "427e4611a414a576a887921539b1e528c8f60df6c2b6afa1df4d0cd861c0652b"
+hash = "75328b51c758a72b558b45c20cdbaed9f4bb44ff382fef214b7be94580102058"
 metafile = true
 
 [[files]]
