@@ -133,12 +133,20 @@ file = "config/origins_server.json"
 hash = "2dabb521a2e718e00af75a5d623b74546da19ceda589ca70e666f6a6fb7624bf"
 
 [[files]]
+file = "config/paintings.toml"
+hash = "45a7a9ef318f1d1f0d3444094ba9e3de679c320210cdb9a9d1756246d3dd1486"
+
+[[files]]
 file = "config/pal.properties"
 hash = "b2599e359572832952dfbf18df57fd539082661b1ae00767992a08f625eec20f"
 
 [[files]]
 file = "config/patchouli.json5"
 hash = "92dc9dadb34707462bf5574bb597430b3b34c65eccf964a31680d402f0431ccf"
+
+[[files]]
+file = "config/pehkui/config.json"
+hash = "fbeef6824d25599913f1688088987d8b4b0248a673806ebf73ddb94b9a586a8e"
 
 [[files]]
 file = "config/power_config.json5"
@@ -468,6 +476,11 @@ hash = "7ed6ba1accadda6d71fb7a1861577933a4544ecae48ccb716487ef7f4cc83851"
 metafile = true
 
 [[files]]
+file = "mods/paintings.pw.toml"
+hash = "ae6eaa1e4d48f0e784696d29ffb3ca62044d31f800cf6167ef5aab938fb49f0d"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "ea59340e930874c307b1dd1d17dd068dc5598e1f1a01055de1f5cb433780a1ee"
 metafile = true
@@ -530,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/torohealth-damage-indicators.pw.toml"
 hash = "05e12be81d4bad4ac26875feadea6ce84128602ef8294a1b843bf6b1feefcfbd"
+metafile = true
+
+[[files]]
+file = "mods/transparent.pw.toml"
+hash = "42f32040684447bd8d947ef169e70b3586795c3700bb82366a120976d075b539"
 metafile = true
 
 [[files]]
