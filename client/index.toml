@@ -149,12 +149,12 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "b99f8b297b9429f5185c84805d1a67f650bba836cf83c6c9d81b275261169672"
+hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "79d10b35c03c33c05e1d72276af5884e032e14040551d4abc79febfc8bdc995c"
+hash = "5afe02558027090123ec3c0b9f484fc01e6437a2c722cc722b2cc45b2f6998c9"
 metafile = true
 
 [[files]]
