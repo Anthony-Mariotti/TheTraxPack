@@ -7,7 +7,7 @@ A generic list of things to do
 - [ ] [Show Me What You Got](https://modrinth.com/mod/show-me-what-you-got)
 - [ ] [Pick Up Notifier](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier)
 - [ ] [CompactStorage](https://www.curseforge.com/minecraft/mc-mods/compactstorage)
-- [ ] [Paintings ++](https://www.curseforge.com/minecraft/mc-mods/paintings)
+- [x] [Paintings ++](https://www.curseforge.com/minecraft/mc-mods/paintings)
 - [ ] [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
 - [ ] [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [ ] [Infusion Table](https://www.curseforge.com/minecraft/mc-mods/infusion-table)
