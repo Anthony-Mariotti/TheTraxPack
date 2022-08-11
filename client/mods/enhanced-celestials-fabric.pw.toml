@@ -1,0 +1,13 @@
+name = "Enhanced Celestials(Fabric) - Blood Moons & Harvest Moons"
+filename = "Enhanced_Celestials-fabric-1.19-2.1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0906cba86c0b8e2311b9220dbaf1585d18f29be5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3895344
+project-id = 443694

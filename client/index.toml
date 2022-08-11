@@ -17,8 +17,24 @@ file = "config/PlasmoVoice/server_data.json"
 hash = "ec1e4eb5cb0f9781edaefa27df5c620a72c4e5f5b56169d31196640e6683e966"
 
 [[files]]
+file = "config/ae2/client.json"
+hash = "8e1abdf2a5ca581b487476ee413c4aaeb73b3173a2eb9512d41443cab9db5bbc"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "dd4f4e318cb56df69d73a062ed51306bae19fce11472c52bd3f722b7001b13d5"
+
+[[files]]
 file = "config/appleskin.json5"
 hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
+
+[[files]]
+file = "config/arcanus.json5"
+hash = "de7d9c12d252398eb65a0c34571dd530ae0d5305068b2013eaaf0d6224fc1d2f"
+
+[[files]]
+file = "config/architects_palette.json5"
+hash = "5154ec80974fcee32f9be4f57e9836f2f679e23ea12ee17530a18cba931ad712"
 
 [[files]]
 file = "config/authme.json5"
@@ -41,16 +57,16 @@ file = "config/detailarmorbar.json"
 hash = "e3f94c490714f3b745e80f21e79bb976c93273cd57f646e6490335734b4529f8"
 
 [[files]]
-file = "config/emi.css"
-hash = "938d094f9027ceb08c2251d78e2b565916050b11afe8c40c9464fec30602a5cf"
-
-[[files]]
 file = "config/enhanced_bes.properties"
 hash = "40b71fb21dc955044f29d8768b1125d1876f34016387de8c0247b11890886b8a"
 
 [[files]]
 file = "config/entityculling.json"
 hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
+
+[[files]]
+file = "config/equipmentcompare-common.toml"
+hash = "5c25616fa129e466171bdd7e0ff8fb0029eb21f426490ce19b73464a93e8edcf"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
@@ -69,12 +85,16 @@ file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.js
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "a9a208d5abcf7f087756fa9303b28c0fae92c8408a41d5a1fcea895e72fc25ff"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "f8e48756bfd1b9515a099c6bf9556f0d6ce86fe81ef8c6a8d3a33ff16027e547"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "ccba04e55a5ca383386e2c2ebdd3370238e10ffcf518b0fc23b410eea6aeb518"
+hash = "11125a0e7c554de089d2ece64f7e1ab1bb7db80858c7f2d3859fa66436e84afb"
 
 [[files]]
 file = "config/libgui.json5"
@@ -85,20 +105,48 @@ file = "config/lithium.properties"
 hash = "4f5890cb55b35047fdb433efa30060827aa9415e0850220f85b2c8ad663d6722"
 
 [[files]]
+file = "config/magna.json"
+hash = "6749b1d63e487d30f5ef70f945edbd36643353bf5c38081443593d8e702d66ed"
+
+[[files]]
 file = "config/minimalmenu.json"
 hash = "668a7d13948e951e61a0a74c4c38963f333a094abd7182ec9f4729591bdb1b18"
+
+[[files]]
+file = "config/modern_industrialization.toml"
+hash = "f6448406c67434e70cf05a20abb81d231683915a85eb31d7d275d4638e1c9877"
 
 [[files]]
 file = "config/modmenu.json"
 hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
 
 [[files]]
+file = "config/noindium.json"
+hash = "0ec99e2aebcefedcf1d5681b6d9cd83d5ed6af32cb8004db0d0699c47beb1164"
+
+[[files]]
 file = "config/notenoughcrashes.json"
 hash = "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf"
 
 [[files]]
+file = "config/origins_server.json"
+hash = "2dabb521a2e718e00af75a5d623b74546da19ceda589ca70e666f6a6fb7624bf"
+
+[[files]]
+file = "config/pal.properties"
+hash = "b2599e359572832952dfbf18df57fd539082661b1ae00767992a08f625eec20f"
+
+[[files]]
 file = "config/patchouli.json5"
 hash = "92dc9dadb34707462bf5574bb597430b3b34c65eccf964a31680d402f0431ccf"
+
+[[files]]
+file = "config/power_config.json5"
+hash = "4a0492a46ebe8c5870fccbd5451cfff5a6557779ae34270e33620024b0896245"
+
+[[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "1d14234681b6359f128c342b071a4fc032f8128caf3e538c3a2384f6adbeebcb"
 
 [[files]]
 file = "config/rrp.properties"
@@ -117,6 +165,10 @@ file = "config/stendhal/stendhal.properties"
 hash = "1af09ec5636236f55cf8c4c6f841ee7ea1b1ce8835883b2454eb58d317b42352"
 
 [[files]]
+file = "config/torohealth.json"
+hash = "e901c71fa33534a9a3c35202e070a947e576c1ce7562072263b118698337d7c6"
+
+[[files]]
 file = "config/tr7zwDonorSettings.json"
 hash = "b4f660488920eac2dffd3c2208d281e92e1444e6f9c7808461a2687347c787d5"
 
@@ -133,6 +185,34 @@ file = "config/waila/waila_plugins.json"
 hash = "9294edffe0b3fc11fa6e823ffef45d2173245200346e4ecb62c06c8cc81e1217"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/script.js"
+hash = "8d6f3db48cc507f2dc6e23919e21837851738fc849cb83772b4186b03bef391d"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "feb5b4014d6b3757d870c7eee14872b9a78c21e5377b7bd4652b6d747f83d8b3"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "8573a0bf684f587ca24ef8cbc154abce259e218bde15a54d49ff4dbc401ba75e"
+
+[[files]]
+file = "kubejs/startup_scripts/script.js"
+hash = "849597780f489579d0c3af2b80d9d1209b152be22e2c270c9085623bbf0a5aea"
+
+[[files]]
 file = "mods/adorn.pw.toml"
 hash = "37a77653eb9db0572dbb4760a6817c64036d9ff68bc5ce0aa6bbb81010fe7a7a"
 metafile = true
@@ -143,6 +223,11 @@ hash = "157430e50ccc1398231fb7addfc01210dbe98df4909a15c9be3d12dc18e8b441"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "146f807145a2490939f3e3705ca428ecafcaebeebc45aac7c8907f8b59411f15"
+metafile = true
+
+[[files]]
 file = "mods/amecs.pw.toml"
 hash = "208a021c2243bdcbddb09c5ed46eb150c390a89801b8c44703ecb83066cf20f3"
 metafile = true
@@ -150,6 +235,16 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
+metafile = true
+
+[[files]]
+file = "mods/arcanus.pw.toml"
+hash = "bbedc017e47d1ba2bf1f62f06262de636f926090cdaadee90f2e8d6d1c1ede6f"
+metafile = true
+
+[[files]]
+file = "mods/architects-palette-fabric.pw.toml"
+hash = "ca60abcfe34cce382cd93ef7e4cfe2e9a959d1389470256f5787f3db8396f9f0"
 metafile = true
 
 [[files]]
@@ -173,6 +268,16 @@ hash = "97b90825ea397eae1dc108b5a9257e3065feacb553e72c019fba62495a72c1d0"
 metafile = true
 
 [[files]]
+file = "mods/bits-and-chisels.pw.toml"
+hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
+metafile = true
+
+[[files]]
+file = "mods/charm-of-undying-fabric.pw.toml"
+hash = "53e553b71cee8e262fecc0c50108025324fb5beb2d34e25213dfcefe01d0d837"
+metafile = true
+
+[[files]]
 file = "mods/charm.pw.toml"
 hash = "fbc6a9da1f121b19b6cc30312fea639b2fe76532774751116febf31d1030ec96"
 metafile = true
@@ -180,6 +285,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "5b6a49a1f18adac12e9da13035102cb763e7371a93c2358e25cf74e014366e59"
+metafile = true
+
+[[files]]
+file = "mods/cmods.pw.toml"
+hash = "1ce834fc5f5867699081d9f10af01e3372867ce898132de2dd1138c56efc6a45"
 metafile = true
 
 [[files]]
@@ -198,8 +308,13 @@ hash = "855e5f89a1c2d225f10927dd9bdd06aaffbc0c59b6d2c525460db6f1c9742ad5"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "dd03b3d00d5c367dde03f049b2418131c1cd5b2146c998e0b24b3aa80ae4d9d4"
+file = "mods/elytra-slot-fabric.pw.toml"
+hash = "c9343c36d7782959cd4a679e1501f2bc08216aec62d15f76f2ce9216fb0ab181"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-fabric.pw.toml"
+hash = "478b5f498b74ec7ac80ed1b283d12c6eefc3efe0b23567df8a5d803ce7f90be0"
 metafile = true
 
 [[files]]
@@ -208,13 +323,33 @@ hash = "5f7e8ec1787dc7e2c8556596c2ba53c0dae9828bf1a2d9c6a1f8b8f9ba41dfb7"
 metafile = true
 
 [[files]]
+file = "mods/equipment-compare-fabric.pw.toml"
+hash = "6eeae038d7939a1cc7e6e79238451867efedcbf8c6f37316865d4589e3777b7e"
+metafile = true
+
+[[files]]
+file = "mods/extra-origins.pw.toml"
+hash = "186987bc3f451d929e42bab5dc391ca07a6badd7ade2c3ac7c4b6a291d6f44b5"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "0164a54948e8c8b4220f1b3f8a41a1c450050fe19e04256ed96e36f58db019d3"
 metafile = true
 
 [[files]]
+file = "mods/fabric-disable-custom-worlds-advice.pw.toml"
+hash = "e16c3c7b7f85abcd007de5f7d4066284781700c1798d2e339b28af1193829235"
+metafile = true
+
+[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "8e91eac9da646c5458d00fb68ccf0887bf815947ef549cb19abebe1e6cec5c72"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.pw.toml"
+hash = "427e4611a414a576a887921539b1e528c8f60df6c2b6afa1df4d0cd861c0652b"
 metafile = true
 
 [[files]]
@@ -228,6 +363,16 @@ hash = "1d87f8c04eeed21a9544cfad7f64afee6de58b5249a70b0367ba8522273a4816"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port-fabric.pw.toml"
+hash = "40e9e7d78ab87932208f630b4b785a977b5c2a9188ef36c7853002a7c1d6097e"
+metafile = true
+
+[[files]]
+file = "mods/iceberg-fabric.pw.toml"
+hash = "9a2f80adb3ee17c60a6ec5e0bb8800aa37345655fcba54cfd2f9da5e768b9887"
+metafile = true
+
+[[files]]
 file = "mods/indium.pw.toml"
 hash = "eefcd81493fa26fa8135cf85495cbfb52127aa43667c5a4faea27d16d7bb2191"
 metafile = true
@@ -235,6 +380,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "3f196a5ba67e18f52901014dd413376944faf11cbf2f35722a08ac6195dd363d"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "af47e7e8087d221f1e5b3d3e33c99ec9d0a0966d0b0d0378281f9ecb62a1ea7d"
 metafile = true
 
 [[files]]
@@ -298,6 +448,11 @@ hash = "75cbefdd9f19a1002c51190f033e464d9a3a96766bd243d3af1f1c7994555347"
 metafile = true
 
 [[files]]
+file = "mods/modern-industrialization.pw.toml"
+hash = "a70764358501f7bb3505df73ca79f46251e1d0144287eae55c8cf49fd27492c8"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "a5c86b836f2213ad4db415d13f6ef5caa379ce348605a29224eb7703b81f1f95"
 metafile = true
@@ -308,8 +463,18 @@ hash = "01efbdcb32ff6e70b6777e26df46bbe3c6c5aecb3e0c81797d234dfad9e0568d"
 metafile = true
 
 [[files]]
+file = "mods/origins.pw.toml"
+hash = "7ed6ba1accadda6d71fb7a1861577933a4544ecae48ccb716487ef7f4cc83851"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "ea59340e930874c307b1dd1d17dd068dc5598e1f1a01055de1f5cb433780a1ee"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "4a1e6a09f17601674c424eec048f08b19dcb7bc346b6525d09e75a752c2cfeb7"
 metafile = true
 
 [[files]]
@@ -320,6 +485,21 @@ metafile = true
 [[files]]
 file = "mods/plasmo-voice.pw.toml"
 hash = "1b9992340de072c10a03628a1257be160c66808dfff0a557c63b3cd3e9a40a82"
+metafile = true
+
+[[files]]
+file = "mods/purpeille.pw.toml"
+hash = "21d65a3503e8f92ebecafd5165eb56afa8da3612b1df45c587954636942673ae"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "ca4ba041496dd550dc6916d62f7bd6684fe1a67010eb2cab9d0e63b0e505010c"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-items.pw.toml"
+hash = "d254a82c584c143edd3e38afb056e0d135d1d0658197e63a9f2244693333b266"
 metafile = true
 
 [[files]]
@@ -345,6 +525,16 @@ metafile = true
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "a2545ca26dcfa338761c72d2cafc001c1b27f27829cbef1e63bf16649e9a4f2d"
+metafile = true
+
+[[files]]
+file = "mods/torohealth-damage-indicators.pw.toml"
+hash = "05e12be81d4bad4ac26875feadea6ce84128602ef8294a1b843bf6b1feefcfbd"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "3fd72c1dc35ee7b8361861b6c13bd6eca5ef93afe89e55970bacdf8a2c57759e"
 metafile = true
 
 [[files]]

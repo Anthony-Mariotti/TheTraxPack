@@ -1,0 +1,13 @@
+name = "Combined Modifiers"
+filename = "cmods-1.3.0+fabric-1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X5JJNmDn/versions/1.3.0+fabric-1.19/cmods-1.3.0%2Bfabric-1.19.jar"
+hash-format = "sha1"
+hash = "98f6d61bd084a2446ac94a124343a8931e5bfc32"
+
+[update]
+[update.modrinth]
+mod-id = "X5JJNmDn"
+version = "1n02sE5V"

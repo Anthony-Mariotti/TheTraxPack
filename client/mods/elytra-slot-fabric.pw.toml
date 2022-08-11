@@ -1,0 +1,13 @@
+name = "Elytra Slot (Fabric)"
+filename = "elytraslot-fabric-6.0.0+1.19.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44ea8e3cc99ad5b3014fcf69223f406431aa5bdb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3907086
+project-id = 397903

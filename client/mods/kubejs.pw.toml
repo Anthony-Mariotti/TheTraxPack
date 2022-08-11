@@ -1,0 +1,13 @@
+name = "KubeJS"
+filename = "kubejs-fabric-1900.5.5-build.27.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/1900.5.5-build.27+fabric/kubejs-fabric-1900.5.5-build.27.jar"
+hash-format = "sha1"
+hash = "6bbd51cbe1c3f3868437ab87206234dd0d7aa6fe"
+
+[update]
+[update.modrinth]
+mod-id = "umyGl7zF"
+version = "dFL3FSdz"
