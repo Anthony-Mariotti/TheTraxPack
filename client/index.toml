@@ -276,6 +276,11 @@ hash = "97b90825ea397eae1dc108b5a9257e3065feacb553e72c019fba62495a72c1d0"
 metafile = true
 
 [[files]]
+file = "mods/biome-makeover.pw.toml"
+hash = "a5e5d1861ed2083bfd1f5a14186c24dfbcd0507b9174ee6ced8a9ca948ba8f99"
+metafile = true
+
+[[files]]
 file = "mods/bits-and-chisels.pw.toml"
 hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
 metafile = true
