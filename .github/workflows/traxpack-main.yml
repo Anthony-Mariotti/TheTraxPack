@@ -35,7 +35,9 @@ jobs:
 
       - name: Generate MultiMC Instance
         run: |
-          zip -r TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip multimc
+          cd multimc
+          zip -r ../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
+          cd ..
 
       - name: Generate Modrinth Pack
         run: |
