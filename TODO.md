@@ -17,7 +17,7 @@ A generic list of things to do
 - [ ] [Oxidized](https://www.curseforge.com/minecraft/mc-mods/oxidized)
 - [ ] [Health Overlay](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
 - [ ] [Rat's Mischief 🐀](https://www.curseforge.com/minecraft/mc-mods/rats-mischief)
-- [ ] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
+- [x] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
 - [x] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
 - [ ] [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric)
 - [x] [Things](https://www.curseforge.com/minecraft/mc-mods/things-fabric)

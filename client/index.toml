@@ -65,6 +65,42 @@ file = "config/bclib/server.json"
 hash = "a747a0bb0548ef3b677671e5e60ac931bb2a45c212bfdb9a8b180cddb068ee87"
 
 [[files]]
+file = "config/betterend/biomes.json"
+hash = "da69412d15c9fab5026c0021565163db734b38b175e7b4ddd5aebd219cff9b14"
+
+[[files]]
+file = "config/betterend/blocks.json"
+hash = "d87ca8f12a7fe7a778cb83c7b7dbe16266932ebd57e6838c5d9f1ad0856ca932"
+
+[[files]]
+file = "config/betterend/client.json"
+hash = "9fe05edf2b6cfaa5573d1dc6debf01181a663f0ffda407c8b3f05d2ef87e56eb"
+
+[[files]]
+file = "config/betterend/enchantments.json"
+hash = "fe93e79aff2fc28279544d8578bc01206964d94cd404c9845ebe871128196803"
+
+[[files]]
+file = "config/betterend/entities.json"
+hash = "c88c23c520341d800c6403788d500a2c8db1eebf1cb3920f9809b31f00e6558b"
+
+[[files]]
+file = "config/betterend/generator.json"
+hash = "564c1d7ef5b6adaeec9e7024147316c6448fcc4e97dab5391870440d0237c718"
+
+[[files]]
+file = "config/betterend/items.json"
+hash = "7cc2f9e173f3be65d3b360fc13949f0f9b51f2365699431d459f4ac58b0f418b"
+
+[[files]]
+file = "config/betterend/portals.json"
+hash = "c0900ca41e9721a30bf49f00762f9fb80367908cd668d5c32ab2816e61ff51d7"
+
+[[files]]
+file = "config/betterend/recipes.json"
+hash = "017ea01b0580525a96d491f8545ba253bc0dc47d90d416aa319fce0fc12fe185"
+
+[[files]]
 file = "config/betternether/biomes.json"
 hash = "6505b655ff956dd211789d92bfe6aeb4078cd46b84f8d0660314624bbfcaa1ed"
 
@@ -365,6 +401,11 @@ metafile = true
 [[files]]
 file = "mods/bclib.pw.toml"
 hash = "0c2703bbc8f46fe76dead6fc276fba1f4af877e63db4157f5c9eedc9065dbd9b"
+metafile = true
+
+[[files]]
+file = "mods/betterend.pw.toml"
+hash = "2f651d0f178a985a25a1721cc32d2c4eef04d513aca323622115930de2986338"
 metafile = true
 
 [[files]]
