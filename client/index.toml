@@ -177,6 +177,10 @@ file = "config/stendhal/stendhal.properties"
 hash = "1af09ec5636236f55cf8c4c6f841ee7ea1b1ce8835883b2454eb58d317b42352"
 
 [[files]]
+file = "config/things.json5"
+hash = "6735f4ed1ff4c7678d9da6c12ab15da8cd04998014bd800f3b34dbae10aa6183"
+
+[[files]]
 file = "config/torohealth.json"
 hash = "e901c71fa33534a9a3c35202e070a947e576c1ce7562072263b118698337d7c6"
 
@@ -532,6 +536,11 @@ hash = "7ed6ba1accadda6d71fb7a1861577933a4544ecae48ccb716487ef7f4cc83851"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "561ad66d44b91fdf5902647e8ec9124c7b0e4502d9e43c7420549c863c6b6300"
+metafile = true
+
+[[files]]
 file = "mods/paintings.pw.toml"
 hash = "ae6eaa1e4d48f0e784696d29ffb3ca62044d31f800cf6167ef5aab938fb49f0d"
 metafile = true
@@ -599,6 +608,11 @@ metafile = true
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "a2545ca26dcfa338761c72d2cafc001c1b27f27829cbef1e63bf16649e9a4f2d"
+metafile = true
+
+[[files]]
+file = "mods/things-fabric.pw.toml"
+hash = "ae8c415cf181013ea65bbd498d372c446105a9f15dd0689ac403fc3c7a81e275"
 metafile = true
 
 [[files]]
