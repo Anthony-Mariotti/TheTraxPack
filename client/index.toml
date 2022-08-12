@@ -225,6 +225,10 @@ file = "config/origins_server.json"
 hash = "2dabb521a2e718e00af75a5d623b74546da19ceda589ca70e666f6a6fb7624bf"
 
 [[files]]
+file = "config/overweight_farming.json"
+hash = "6d8a080e48fcc2c68a0abb91d94f2dca7693ac67815dcd67335d7262bebb1852"
+
+[[files]]
 file = "config/paintings.toml"
 hash = "45a7a9ef318f1d1f0d3444094ba9e3de679c320210cdb9a9d1756246d3dd1486"
 
@@ -640,6 +644,11 @@ metafile = true
 [[files]]
 file = "mods/origins.pw.toml"
 hash = "7ed6ba1accadda6d71fb7a1861577933a4544ecae48ccb716487ef7f4cc83851"
+metafile = true
+
+[[files]]
+file = "mods/overweight-farming.pw.toml"
+hash = "e09fb3c34504148251128cf1869152f392f65dcfba13b1d61104a97102392f4d"
 metafile = true
 
 [[files]]
