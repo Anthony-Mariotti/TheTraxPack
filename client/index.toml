@@ -539,7 +539,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-doors.pw.toml"
-hash = "16b4df55e16a4de8527401b8a88a71b321dfd84b9284283cc9f3b069081a40e7"
+hash = "2bc9fa615a909f36ae3c6c1372567a6b96a04694ae2da3c5ab0e7575aea6c88c"
 metafile = true
 
 [[files]]
