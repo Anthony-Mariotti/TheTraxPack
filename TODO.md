@@ -9,7 +9,7 @@ A generic list of things to do
 - [ ] [CompactStorage](https://www.curseforge.com/minecraft/mc-mods/compactstorage)
 - [x] [Paintings ++](https://www.curseforge.com/minecraft/mc-mods/paintings)
 - [ ] [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
-- [ ] [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+- [x] [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [ ] [Infusion Table](https://www.curseforge.com/minecraft/mc-mods/infusion-table)
 - [ ] [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidtotem-fabric)
 - [ ] [Additional Bars](https://www.curseforge.com/minecraft/mc-mods/additional-bars-fabric)

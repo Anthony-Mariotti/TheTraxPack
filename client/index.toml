@@ -57,6 +57,10 @@ file = "config/detailarmorbar.json"
 hash = "e3f94c490714f3b745e80f21e79bb976c93273cd57f646e6490335734b4529f8"
 
 [[files]]
+file = "config/enchdesc.json"
+hash = "9c38c6c61cee2b7ce9ca30abfc1365884eebbdf51705798d71854979d2643923"
+
+[[files]]
 file = "config/enhanced_bes.properties"
 hash = "40b71fb21dc955044f29d8768b1125d1876f34016387de8c0247b11890886b8a"
 
@@ -286,6 +290,11 @@ hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "69fbd5258464b60fda1da6530dd036433833e3f1a02984c2c46a660e3ce8085f"
+metafile = true
+
+[[files]]
 file = "mods/charm-of-undying-fabric.pw.toml"
 hash = "53e553b71cee8e262fecc0c50108025324fb5beb2d34e25213dfcefe01d0d837"
 metafile = true
@@ -323,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/elytra-slot-fabric.pw.toml"
 hash = "0e47b1328fabc6872c409910a090ec24051381f23e289efd6d0507d63013adbc"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "28fa30b850d3a8ed828cd65ee12e1ead7d3fec9a610eb969c0f3a62de485727a"
 metafile = true
 
 [[files]]
