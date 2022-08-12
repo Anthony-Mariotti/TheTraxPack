@@ -60,3 +60,4 @@ jobs:
           files: |
             client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
             TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
+          generate_release_notes: true
