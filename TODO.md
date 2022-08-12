@@ -4,7 +4,7 @@ A generic list of things to do
 
 ## Possbile Mod Additions
 
-- [ ] [Show Me What You Got](https://modrinth.com/mod/show-me-what-you-got)
+- [x] [Show Me What You Got](https://modrinth.com/mod/show-me-what-you-got)
 - [ ] [Pick Up Notifier](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier)
 - [ ] [CompactStorage](https://www.curseforge.com/minecraft/mc-mods/compactstorage)
 - [x] [Paintings ++](https://www.curseforge.com/minecraft/mc-mods/paintings)
@@ -19,6 +19,8 @@ A generic list of things to do
 - [ ] [Rat's Mischief 🐀](https://www.curseforge.com/minecraft/mc-mods/rats-mischief)
 - [ ] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
 - [ ] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
+- [ ] [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric)
+- [ ] [Things](https://www.curseforge.com/minecraft/mc-mods/things-fabric)
 
 ## Configuration
 

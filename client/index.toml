@@ -572,6 +572,11 @@ hash = "d254a82c584c143edd3e38afb056e0d135d1d0658197e63a9f2244693333b266"
 metafile = true
 
 [[files]]
+file = "mods/show-me-what-you-got.pw.toml"
+hash = "5e11ac2d073b0b65f0c1eba950bee36e3545644c7cc2a5b6af2cfc6347e63d51"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0d539d8bad8493d4196bf5f7bf216d692384f283849fa41a2e5a816a0147673e"
 metafile = true
