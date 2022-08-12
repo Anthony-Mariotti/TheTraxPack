@@ -277,6 +277,10 @@ file = "config/tr7zwDonorSettings.json"
 hash = "b4f660488920eac2dffd3c2208d281e92e1444e6f9c7808461a2687347c787d5"
 
 [[files]]
+file = "config/voidtotem.toml"
+hash = "fff61f6d96a211539afdb685332f5907e98888344a866316b0abf3a69c03772c"
+
+[[files]]
 file = "config/waila/blacklist.json"
 hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
@@ -731,6 +735,11 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "3fd72c1dc35ee7b8361861b6c13bd6eca5ef93afe89e55970bacdf8a2c57759e"
+metafile = true
+
+[[files]]
+file = "mods/voidtotem-fabric.pw.toml"
+hash = "d887c88b5f9815a44efb39716ead198c2770d61752f72574c79e14b4ccf9434e"
 metafile = true
 
 [[files]]
