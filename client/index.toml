@@ -42,7 +42,7 @@ hash = "abc3e0e4c6c3120dcbc22fecfae1966d0a040aa9464913fd2ff3aa5b1f606023"
 
 [[files]]
 file = "config/charm.toml"
-hash = "3b42aa4dbc12fb7a599e062c5ba77e51e78e361cb250bbeaf756139775a5a64b"
+hash = "514fd87c18ca6db9ca017a35cb1d9f965ddc2faf809a1c65224ff19dd0a3510e"
 
 [[files]]
 file = "config/croptopia/croptopia.conf"
@@ -90,7 +90,7 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "a9a208d5abcf7f087756fa9303b28c0fae92c8408a41d5a1fcea895e72fc25ff"
+hash = "772e8bf703e6d27c05f3e2f2c9a1324c8717b7089873d227b3338b6713ab0fd9"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
