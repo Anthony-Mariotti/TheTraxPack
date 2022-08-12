@@ -18,14 +18,19 @@ A generic list of things to do
 - [ ] [Health Overlay](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
 - [ ] [Rat's Mischief 🐀](https://www.curseforge.com/minecraft/mc-mods/rats-mischief)
 - [ ] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
-- [ ] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
+- [x] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
 - [ ] [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric)
-- [ ] [Things](https://www.curseforge.com/minecraft/mc-mods/things-fabric)
+- [x] [Things](https://www.curseforge.com/minecraft/mc-mods/things-fabric)
 
 ## Configuration
 
 ## Misc
 
-## Wanted but Outdated
+## Mods Wanted but Outdated
 
 - [Botania](https://modrinth.com/mod/pfjLUfGv) (1.18.2)
+
+## Server
+
+- World Gen BetterX
+- Set BCLib to not check for updates :)

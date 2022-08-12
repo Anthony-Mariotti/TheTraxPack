@@ -41,6 +41,58 @@ file = "config/authme.json5"
 hash = "abc3e0e4c6c3120dcbc22fecfae1966d0a040aa9464913fd2ff3aa5b1f606023"
 
 [[files]]
+file = "config/bclib/biomes.json"
+hash = "42c5b248e088959310bc540e9db14b91c267b8d1f0cbec0636c31f09c84ec94e"
+
+[[files]]
+file = "config/bclib/client.json"
+hash = "25e7871e92571750459a882005dc2a214ab358d97ed5ca50b455e308272493a4"
+
+[[files]]
+file = "config/bclib/generator.json"
+hash = "218542dbc05094a216da6161849a631c4fd770cf5364395d521e15e00240e0bf"
+
+[[files]]
+file = "config/bclib/main.json"
+hash = "78dc14c2ef78fcbe8bfd9a664b5781609a5c00b4068e366bda5f5d57a96fe268"
+
+[[files]]
+file = "config/bclib/recipes.json"
+hash = "2b6500d3a812ee56ea3bd52a62e437ac1aa06f8c3d9a248fb4b51a653918083f"
+
+[[files]]
+file = "config/bclib/server.json"
+hash = "a747a0bb0548ef3b677671e5e60ac931bb2a45c212bfdb9a8b180cddb068ee87"
+
+[[files]]
+file = "config/betternether/biomes.json"
+hash = "6505b655ff956dd211789d92bfe6aeb4078cd46b84f8d0660314624bbfcaa1ed"
+
+[[files]]
+file = "config/betternether/blocks.json"
+hash = "a873fbdeea280eaa326c4176f2c187a185656f448ff138497dd2b6fd4b0293fe"
+
+[[files]]
+file = "config/betternether/generator.json"
+hash = "c92599f15cef56427ea4c82394b26b4ba2ffe64176cbfd873fd5fd468dfb362a"
+
+[[files]]
+file = "config/betternether/items.json"
+hash = "7107e15255eae424998a95c29b4bb7f9eae318bf6b6a518af02657d167fcbf92"
+
+[[files]]
+file = "config/betternether/main.json"
+hash = "6d4f1aa22a4c974936e5e6924d644f1755fd995a87092e99e113bdd494371f02"
+
+[[files]]
+file = "config/betternether/mobs.json"
+hash = "6ce59f333ede885d055ee3fb3164f38cb609843ce279d00b4bba0d2a73347a5a"
+
+[[files]]
+file = "config/betternether/recipes.json"
+hash = "7bb1d5635f9730f2f4bc7d9d3faecc8b56c141e32e1c86ed7232d899d84b5897"
+
+[[files]]
 file = "config/charm.toml"
 hash = "514fd87c18ca6db9ca017a35cb1d9f965ddc2faf809a1c65224ff19dd0a3510e"
 
@@ -311,8 +363,18 @@ hash = "d8fe226cd050b8c94fcb98819b2646a74863ad8d52fc22db37c29fe66e53996d"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "0c2703bbc8f46fe76dead6fc276fba1f4af877e63db4157f5c9eedc9065dbd9b"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "97b90825ea397eae1dc108b5a9257e3065feacb553e72c019fba62495a72c1d0"
+metafile = true
+
+[[files]]
+file = "mods/betternether.pw.toml"
+hash = "42a1922956c0640656c437853b5160f32ad9603b8f38dbcf23ac357b71aafee8"
 metafile = true
 
 [[files]]
