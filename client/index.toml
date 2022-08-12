@@ -197,6 +197,38 @@ file = "config/waila/waila_plugins.json"
 hash = "9294edffe0b3fc11fa6e823ffef45d2173245200346e4ecb62c06c8cc81e1217"
 
 [[files]]
+file = "journeymap/config/5.8/journeymap.core.config"
+hash = "a81b43de06a9a914444ef2e3620c56b17934797f67777e357ef9828cefb4eb1d"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.fullmap.config"
+hash = "9db0c0870ffca860918f3f46b6bfebd8fc3698362abdbe5817be2e9ef03fbcb2"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.minimap.config"
+hash = "ec33586d94a9f103fbc2a799ff1096cb330e505417a8deede2ddde9008b6fd30"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.minimap2.config"
+hash = "e2d322b0678d5f72c29b3a45bd0146d4928c2e408c593ecc21bbe77dc4027f77"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.topo.config"
+hash = "a00aa8219ffb30f249d0e82cd6f938be2ca174ed89a3779553721ab7f2db4b0d"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.waypoint.config"
+hash = "aa5598708fcda6b98c2882d2977b7398eeb3568bef67bf531dc33fd0c1c1362c"
+
+[[files]]
+file = "journeymap/config/5.8/journeymap.webmap.config"
+hash = "cff3e1aee19f86cbc439187f0e6fa91d095c8cdf8db9b42e292a6c9387c9f5e2"
+
+[[files]]
+file = "journeymap/icon/theme/default.theme.config"
+hash = "21af30bf8e646b63fdc52a25e1dc0eb20ffa0085d688767e424333d767be8629"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
 
@@ -407,6 +439,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "3f196a5ba67e18f52901014dd413376944faf11cbf2f35722a08ac6195dd363d"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "518cafdb008272205784e56f927f68ae536098ce705c1184eb917f035bce4f43"
 metafile = true
 
 [[files]]

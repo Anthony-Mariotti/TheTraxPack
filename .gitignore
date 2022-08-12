@@ -5,3 +5,10 @@
 *.mrpack
 
 client/kubejs/README*
+
+# JourneyMap Exclusions
+client/journeymap/icon/theme/flat/
+client/journeymap/server/
+client/journeymap/colorpalette*
+client/journeymap/journeymap.log
+client/journeymap/data/

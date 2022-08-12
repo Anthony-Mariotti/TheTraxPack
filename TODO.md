@@ -8,7 +8,7 @@ A generic list of things to do
 - [ ] [Pick Up Notifier](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier)
 - [ ] [CompactStorage](https://www.curseforge.com/minecraft/mc-mods/compactstorage)
 - [x] [Paintings ++](https://www.curseforge.com/minecraft/mc-mods/paintings)
-- [ ] [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
+- [x] [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
 - [x] [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [ ] [Infusion Table](https://www.curseforge.com/minecraft/mc-mods/infusion-table)
 - [ ] [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidtotem-fabric)
@@ -17,7 +17,13 @@ A generic list of things to do
 - [ ] [Oxidized](https://www.curseforge.com/minecraft/mc-mods/oxidized)
 - [ ] [Health Overlay](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
 - [ ] [Rat's Mischief 🐀](https://www.curseforge.com/minecraft/mc-mods/rats-mischief)
+- [ ] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
+- [ ] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
 
 ## Configuration
 
 ## Misc
+
+## Wanted but Outdated
+
+- [Botania](https://modrinth.com/mod/pfjLUfGv) (1.18.2)
