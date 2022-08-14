@@ -49,13 +49,13 @@ jobs:
 
       - name: Generate Modrinth Pack
         run: |
-          cd client
-          packwiz mr export -o TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+          cd pack
+          packwiz mr export -o ../TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: TTPArtifacts-${{ env.GitVersion_SemVer }}
           path: |
-            client/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+            TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
             TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
