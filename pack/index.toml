@@ -731,6 +731,11 @@ hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
 metafile = true
 
 [[files]]
+file = "mods/terralith.pw.toml"
+hash = "9205368991a2cb12d412f3c6cd29ced16c8119403fda2606d167291c8786d2b9"
+metafile = true
+
+[[files]]
 file = "mods/things-fabric.pw.toml"
 hash = "ae8c415cf181013ea65bbd498d372c446105a9f15dd0689ac403fc3c7a81e275"
 metafile = true
