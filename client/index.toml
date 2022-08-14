@@ -346,11 +346,15 @@ hash = "8d6f3db48cc507f2dc6e23919e21837851738fc849cb83772b4186b03bef391d"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "feb5b4014d6b3757d870c7eee14872b9a78c21e5377b7bd4652b6d747f83d8b3"
+hash = "41772b238aa5bb8832c222a19f88c5207878dc20765cfb1b1a5968afa63f31ab"
 
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "8573a0bf684f587ca24ef8cbc154abce259e218bde15a54d49ff4dbc401ba75e"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+hash = "746280f9de7cde656781576d94baae3352f0c08ec94f222d728fa5e9b120e807"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
