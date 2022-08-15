@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo $env
+echo $PACK_VERSION
 
 #cp -r pack/config multimc/.minecraft
 #cp -r pack/journeymap multimc/.minecraft
