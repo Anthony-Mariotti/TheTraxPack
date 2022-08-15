@@ -41,9 +41,12 @@ jobs:
 
       - name: Generate MultiMC Instance
         run: |
-          cd multimc
+          cd multimc/.minecraft
+          cp -r ../../pack/config .
+          cp -r ../../pack/journeymap .
+          cp -r ../../pack/kubejs .
           zip -r ../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
-          cd ..
+          cd ../../
 
       - name: Generate Modrinth Pack
         run: |
