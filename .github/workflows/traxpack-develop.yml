@@ -40,14 +40,7 @@ jobs:
           replace: "${{ env.GitVersion_SemVer }}"
 
       - name: Generate MultiMC Instance
-        run: |
-          cd multimc/.minecraft
-          cp -r ../../pack/config .
-          cp -r ../../pack/journeymap .
-          cp -r ../../pack/kubejs .
-          cd ..
-          zip -r ../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
-          cd ../
+        run: sh ./.github/scripts/build-multimc.sh
 
       - name: Generate Modrinth Pack
         run: |
