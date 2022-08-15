@@ -137,10 +137,6 @@ file = "config/charm.toml"
 hash = "514fd87c18ca6db9ca017a35cb1d9f965ddc2faf809a1c65224ff19dd0a3510e"
 
 [[files]]
-file = "config/craftpresence.properties"
-hash = "9fa7ba4f0988188930fc6256e502fb99a5ca593699ca96386bf689571e4cfddf"
-
-[[files]]
 file = "config/croptopia/croptopia.conf"
 hash = "a4c70795b0442bb035416e3b15cf2037f260d4fc2248ca64ddd2de91e8817b99"
 
@@ -195,10 +191,6 @@ hash = "772e8bf703e6d27c05f3e2f2c9a1324c8717b7089873d227b3338b6713ab0fd9"
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "f8e48756bfd1b9515a099c6bf9556f0d6ce86fe81ef8c6a8d3a33ff16027e547"
-
-[[files]]
-file = "config/isxander-main-menu-credits.json"
-hash = "11125a0e7c554de089d2ece64f7e1ab1bb7db80858c7f2d3859fa66436e84afb"
 
 [[files]]
 file = "config/libgui.json5"
@@ -351,10 +343,6 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 [[files]]
 file = "kubejs/client_scripts/script.js"
 hash = "8d6f3db48cc507f2dc6e23919e21837851738fc849cb83772b4186b03bef391d"
-
-[[files]]
-file = "kubejs/config/client.properties"
-hash = "41772b238aa5bb8832c222a19f88c5207878dc20765cfb1b1a5968afa63f31ab"
 
 [[files]]
 file = "kubejs/config/common.properties"

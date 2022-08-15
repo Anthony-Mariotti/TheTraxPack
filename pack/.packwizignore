@@ -6,8 +6,11 @@
 .vscode
 
 # JourneyMap Exclusions
-pack/journeymap/icon/theme/flat/
-pack/journeymap/server/
-pack/journeymap/colorpalette*
-pack/journeymap/journeymap.log
-pack/journeymap/data/
+journeymap/icon/theme/flat/
+journeymap/server/
+journeymap/colorpalette*
+journeymap/journeymap.log
+journeymap/data/
+
+kubejs/**/client.properties
+config/**/isxander-main-menu-credits.json
