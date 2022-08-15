@@ -21,6 +21,8 @@ A generic list of things to do
 - [x] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
 - [ ] [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric)
 - [x] [Things](https://www.curseforge.com/minecraft/mc-mods/things-fabric)
+- [ ] [Eden Ring](https://www.curseforge.com/minecraft/mc-mods/eden-ring)
+- [ ] [Parry This!](https://www.curseforge.com/minecraft/mc-mods/parrying)
 
 ## Configuration
 
