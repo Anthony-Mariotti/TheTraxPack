@@ -33,25 +33,37 @@ jobs:
       - name: Install PackWiz
         run: go install github.com/packwiz/packwiz@latest
 
+      # Unable to dynamically replace items for packwiz at this time
+      # - name: Replace Version Tag
+      #   uses: jacobtomlinson/gha-find-replace@v2
+      #   with:
+      #     find: "{{ TTP.VERSION }}"
+      #     replace: "${{ env.GitVersion_SemVer }}"
+
       - name: Generate MultiMC Instance
-        run: |
-          cd multimc
-          zip -r ../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
-          cd ..
+        run: sh ./.github/scripts/build-multimc.sh -g
+        env:
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
       - name: Generate Modrinth Pack
-        run: |
-          cd pack
-          packwiz mr export -o ../TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+        run: sh ./.github/scripts/build-modrinth.sh
+        env:
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
-      - name: Upload Modrinth Pack
-        uses: actions/upload-artifact@v3
-        with:
-          name: TheTraxPack-Modrinth-${{ env.GitVersion_SemVer }}
-          path: TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+      - name: Generate Server Pack
+        run: sh ./.github/scripts/build-server.sh -g
+        env:
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
-      - name: Upload MultiMC Instance
-        uses: actions/upload-artifact@v3
+      - name: Publish Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}
-          path: multimc/
+          prerelease: false
+          name: ${{ env.GitVersion_SemVer }}
+          tag_name: ${{ env.GitVersion_SemVer }}
+          target_commitish: develop
+          files: |
+            build/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+            build/TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
+            build/TheTraxPack-Server-${{ env.GitVersion_SemVer }}.zip
+          generate_release_notes: true
