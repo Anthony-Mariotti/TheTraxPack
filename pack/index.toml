@@ -173,6 +173,10 @@ file = "config/ferritecore.mixin.properties"
 hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
 
 [[files]]
+file = "config/healthoverlay.json5"
+hash = "2789db1bfd820198e0d2987ec376f4e88043e3fedddf1b8e5195d6c783e9ad34"
+
+[[files]]
 file = "config/indium-renderer.properties"
 hash = "91b0c80f21c917f572140fe57e4fbf11f6b81129ae172a0dc05a38f9633e4fc3"
 
@@ -552,6 +556,11 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port-fabric.pw.toml"
 hash = "40e9e7d78ab87932208f630b4b785a977b5c2a9188ef36c7853002a7c1d6097e"
+metafile = true
+
+[[files]]
+file = "mods/health-overlay-fabric.pw.toml"
+hash = "404b53688b0be7a00dc0b0e5ccbfed6c135a872add64d27b35fdd083766f8f73"
 metafile = true
 
 [[files]]

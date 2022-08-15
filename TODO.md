@@ -15,7 +15,7 @@ A generic list of things to do
 - [ ] [Additional Bars](https://www.curseforge.com/minecraft/mc-mods/additional-bars-fabric)
 - [ ] [More Geodes](https://www.curseforge.com/minecraft/mc-mods/emerald-geodes)
 - [ ] [Oxidized](https://www.curseforge.com/minecraft/mc-mods/oxidized)
-- [ ] [Health Overlay](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
+- [x] [Health Overlay](https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric)
 - [ ] [Rat's Mischief 🐀](https://www.curseforge.com/minecraft/mc-mods/rats-mischief)
 - [x] [Better End](https://www.curseforge.com/minecraft/mc-mods/betterend)
 - [x] [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
