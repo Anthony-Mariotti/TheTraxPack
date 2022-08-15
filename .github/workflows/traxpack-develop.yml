@@ -45,7 +45,7 @@ jobs:
           cp -r ../../pack/config .
           cp -r ../../pack/journeymap .
           cp -r ../../pack/kubejs .
-          zip -r ../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
+          zip -r ../../TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip *
           cd ../../
 
       - name: Generate Modrinth Pack
