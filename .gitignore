@@ -1,12 +1,14 @@
-# Exclude exported CurseForge zip files
+# Exclude any zip files
 *.zip
 
 # Exclude exported Modrinth modpacks
 *.mrpack
 
-pack/kubejs/README*
+# Exclude Build
+build/
 
-# JourneyMap Exclusions
+# Pack Exclusions
+pack/kubejs/README*
 pack/journeymap/icon/theme/flat/
 pack/journeymap/server/
 pack/journeymap/colorpalette*

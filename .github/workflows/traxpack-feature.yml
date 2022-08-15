@@ -52,10 +52,16 @@ jobs:
         env:
           PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
+      - name: Generate Server Pack
+        run: sh ./.github/scripts/build-server.sh
+        env:
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
+
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: TTPArtifacts-${{ env.GitVersion_SemVer }}
           path: |
-            TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
-            TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
+            build/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+            build/multimc
+            build/server

@@ -41,12 +41,17 @@ jobs:
       #     replace: "${{ env.GitVersion_SemVer }}"
 
       - name: Generate MultiMC Instance
-        run: sh ./.github/scripts/build-multimc.sh
+        run: sh ./.github/scripts/build-multimc.sh -g
         env:
           PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
       - name: Generate Modrinth Pack
         run: sh ./.github/scripts/build-modrinth.sh
+        env:
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
+
+      - name: Generate Server Pack
+        run: sh ./.github/scripts/build-server.sh -g
         env:
           PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
@@ -58,6 +63,7 @@ jobs:
           tag_name: ${{ env.GitVersion_SemVer }}
           target_commitish: develop
           files: |
-            TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
-            TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
+            build/TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+            build/TheTraxPack-MultiMC-${{ env.GitVersion_SemVer }}.zip
+            build/TheTraxPack-Server-${{ env.GitVersion_SemVer }}.zip
           generate_release_notes: true
