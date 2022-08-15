@@ -137,6 +137,10 @@ file = "config/charm.toml"
 hash = "514fd87c18ca6db9ca017a35cb1d9f965ddc2faf809a1c65224ff19dd0a3510e"
 
 [[files]]
+file = "config/craftpresence.properties"
+hash = "9fa7ba4f0988188930fc6256e502fb99a5ca593699ca96386bf689571e4cfddf"
+
+[[files]]
 file = "config/croptopia/croptopia.conf"
 hash = "a4c70795b0442bb035416e3b15cf2037f260d4fc2248ca64ddd2de91e8817b99"
 
@@ -335,10 +339,6 @@ hash = "cff3e1aee19f86cbc439187f0e6fa91d095c8cdf8db9b42e292a6c9387c9f5e2"
 [[files]]
 file = "journeymap/icon/theme/default.theme.config"
 hash = "21af30bf8e646b63fdc52a25e1dc0eb20ffa0085d688767e424333d767be8629"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
