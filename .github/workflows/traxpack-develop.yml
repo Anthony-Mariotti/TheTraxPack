@@ -33,11 +33,12 @@ jobs:
       - name: Install PackWiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Replace Version Tag
-        uses: jacobtomlinson/gha-find-replace@v2
-        with:
-          find: "{{ TTP.VERSION }}"
-          replace: "${{ env.GitVersion_SemVer }}"
+      # Unable to dynamically replace items for packwiz at this time
+      # - name: Replace Version Tag
+      #   uses: jacobtomlinson/gha-find-replace@v2
+      #   with:
+      #     find: "{{ TTP.VERSION }}"
+      #     replace: "${{ env.GitVersion_SemVer }}"
 
       - name: Generate MultiMC Instance
         run: sh ./.github/scripts/build-multimc.sh
@@ -45,9 +46,8 @@ jobs:
           PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
       - name: Generate Modrinth Pack
-        run: |
-          cd pack
-          packwiz mr export -o ../TheTraxPack-${{ env.GitVersion_SemVer }}.mrpack
+        run: sh ./.github/scripts/build-modrinth.sh
+          PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
       - name: Publish Pre-Release
         uses: softprops/action-gh-release@v1
