@@ -40,7 +40,8 @@ jobs:
           replace: "${{ env.GitVersion_SemVer }}"
 
       - name: Generate MultiMC Instance
-        run: sh ./.github/scripts/build-multimc.sh
+        run: ./.github/scripts/build-multimc.sh
+        shell: bash
 
       - name: Generate Modrinth Pack
         run: |
