@@ -1,13 +1,13 @@
 name = "Purpeille"
-filename = "purpeille-3.1.0+fabric-1.19.jar"
+filename = "purpeille-3.2.0+fabric-1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/yoEkK5RL/versions/3.1.0+fabric-1.19/purpeille-3.1.0%2Bfabric-1.19.jar"
+url = "https://cdn.modrinth.com/data/yoEkK5RL/versions/3.2.0+fabric-1.19/purpeille-3.2.0%2Bfabric-1.19.jar"
 hash-format = "sha1"
-hash = "60b0d6b52f44e91180a7f9393f337de52cb18f51"
+hash = "8ba7a100e35f292d3ba0af90961efab8a43e7a59"
 
 [update]
 [update.modrinth]
 mod-id = "yoEkK5RL"
-version = "zEWEZkSa"
+version = "aOv1NGf3"
