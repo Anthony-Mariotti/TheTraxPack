@@ -47,6 +47,7 @@ jobs:
 
       - name: Generate Modrinth Pack
         run: sh ./.github/scripts/build-modrinth.sh
+        env:
           PACK_VERSION: ${{ env.GitVersion_SemVer }}
 
       - name: Publish Pre-Release
