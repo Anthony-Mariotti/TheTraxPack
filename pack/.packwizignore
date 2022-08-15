@@ -11,6 +11,3 @@ journeymap/server/
 journeymap/colorpalette*
 journeymap/journeymap.log
 journeymap/data/
-
-kubejs/**/client.properties
-config/**/isxander-main-menu-credits.json

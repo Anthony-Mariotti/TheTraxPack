@@ -193,6 +193,10 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "f8e48756bfd1b9515a099c6bf9556f0d6ce86fe81ef8c6a8d3a33ff16027e547"
 
 [[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "9a48a57a1ef9f1c0cf6bf91dec9c4c12ce235e7f703100e14c99e9bb2d8f9472"
+
+[[files]]
 file = "config/libgui.json5"
 hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
 
@@ -343,6 +347,10 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 [[files]]
 file = "kubejs/client_scripts/script.js"
 hash = "8d6f3db48cc507f2dc6e23919e21837851738fc849cb83772b4186b03bef391d"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "2f6c2db326faea92b1f052a581b7571fbfc88f76fb6de8180b642d0f2db700b8"
 
 [[files]]
 file = "kubejs/config/common.properties"
